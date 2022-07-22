@@ -29,6 +29,9 @@
                 font-size: 15px;
                 font-weight: 400;
             }
+            .btn:hover {
+                cursor:pointer;
+            }
             .mbtn {
                 background-color: transparent;
                 padding:4px 8px;
@@ -37,6 +40,9 @@
                 border-width: 1.6px;
                 font-size: 16px;
                 margin-top: -3px;
+            }
+            .mbtn:hover {
+                cursor: pointer;
             }
             body {
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -61,8 +67,15 @@
                 list-style-type: none;
             }
             ul {
-                width: 150px;
-                margin-left: auto;
+                width: 25px;
+                margin-top: 200px;
+            }
+            li {
+                position: relative;
+                left: 590px;
+            }
+            .second {
+                display:flex;
             }
         </style>
         <style>
@@ -102,7 +115,7 @@
                 font-size: 15px;
                 font-weight: 400;
             }
-            div > .icons {
+            .icons {
                 display: none;
             }
         }
@@ -117,20 +130,22 @@
             <a href="#" class="header-right">About</a>
             <a href="#" class="header-right">Projects</a>
         </div>
-        <div class="heading">
-                <h1 class="col1">Hi, I'm Dapo Sarumi,<br> a prolific front-end developer.</h1>
-                <p style="font-size:large; color:rgb(108, 107, 107);">I'm passionate about creating user-centred systems, it's what I do best.<br>
-                    I look forward to working with you on your future projects,<br>
-                    it's best over here!</p><br>
-                <a href="mailto:sarumiadedapo@gmail.com" target="_blank"><button type="button" class="btn" >Hire Me</button></a>
-        </div>
-        <div class="icons">
-            <ul>
-                <a href="#"><li class="instagram"><i class="fa fa-instagram"></i></li></a>
-                <a href="#"><li class="github"><i class="fa fa-github"></i></li></a>
-                <a href="#"><li class="twitter"><i class="fa fa-twitter"></i></li></a>
-                <a href="#"><li class="linkedin"><i class="fa fa-linkedin"></i></li></a> 
-            </ul>            
+        <div class="second">
+            <div class="heading">
+                    <h1 class="col1">Hi, I'm Dapo Sarumi,<br> a prolific front-end developer.</h1>
+                    <p style="font-size:large; color:rgb(108, 107, 107);">I'm passionate about creating user-centred systems, it's what I do best.<br>
+                        I look forward to working with you on your future projects,<br>
+                        it's best over here!</p><br>
+                    <a href="mailto:sarumiadedapo@gmail.com" target="_blank"><button type="button" class="btn" >Hire Me</button></a>
+            </div>
+            <div class="icons">
+                <ul>
+                    <a href="#"><li class="instagram"><i class="fa fa-instagram"></i></li></a>
+                    <a href="#"><li class="github"><i class="fa fa-github"></i></li></a>
+                    <a href="#"><li class="twitter"><i class="fa fa-twitter"></i></li></a>
+                    <a href="#"><li class="linkedin"><i class="fa fa-linkedin"></i></li></a> 
+                </ul>            
+            </div>
         </div> 
     </body>
 </html>
