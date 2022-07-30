@@ -11,7 +11,10 @@
                 font-weight: 620;
                 font-size: 30px;
             }
-            p, h1, a {
+            p, h1 {
+                margin-left: 90px;
+            }
+            .cta {
                 margin-left: 90px;
             }
             h1 {
@@ -47,35 +50,28 @@
             body {
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
-            .fa {
+            .header-right {
+                color: grey;
+                font-size: 16px;
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            .header-right:hover {
                 color: black;
             }
-            .header-right {
-                float: right;
+            .header-right:active {
                 color: black;
-                font-size: 16px;
-                margin-top: 11px;
+            }
+            .right-nav {
+                float: right;
+                margin-right: 90px;
+                padding-top: 5px;
             }
             .header {
-                padding-top: 25px;
-                padding-right: 120px;
+                padding-top: 20px;
             }
             a:link {
                 text-decoration: none;
-            }
-            .icons ul li {
-                list-style-type: none;
-            }
-            ul {
-                width: 25px;
-                margin-top: 200px;
-            }
-            li {
-                position: relative;
-                left: 590px;
-            }
-            .second {
-                display:flex;
             }
         </style>
         <style>
@@ -115,37 +111,28 @@
                 font-size: 15px;
                 font-weight: 400;
             }
-            .icons {
-                display: none;
-            }
         }
         </style>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body style="background-color:aquamarine";>
-        <div class="header">
-            <a href="#" class="logo">DS.</a>
-            <a href="mailto:sarumiadedapo@gmail.com" class="header-right"><button class="mbtn">Hire Me</button></a>
-            <a href="mailto:sarumiadedapo@gmail.com" class="header-right">Contact</a>
-            <a href="#" class="header-right">About</a>
-            <a href="#" class="header-right">Projects</a>
-        </div>
-        <div class="second">
+        <header>
+            <div class="header">
+                <a href="https://daposarumi.github.io/portfolio/" class="logo">DS.</a>
+                <nav class="right-nav">
+                    <a href="#" class="header-right">Projects</a>
+                    <a href="mailto:sarumiadedapo@gmail.com" class="header-right">Contact</a>
+                    <a href="#" class="header-right">About</a>
+                    <a href="https://drive.google.com/file/d/1fqrwBC45ZGBEDkyffV0Ud93lgcgbsQNu/view?usp=sharing" target="_blank" class="header-right"><button class="mbtn">Resume</button></a>
+                </nav>
+            </div>
+        </header>
             <div class="heading">
                     <h1 class="col1">Hi, I'm Dapo Sarumi,<br> a prolific front-end developer.</h1>
                     <p style="font-size:large; color:rgb(108, 107, 107);">I'm passionate about creating user-centred systems, it's what I do best.<br>
                         I look forward to working with you on your future projects,<br>
                         it's best over here!</p><br>
-                    <a href="mailto:sarumiadedapo@gmail.com" target="_blank"><button type="button" class="btn" >Hire Me</button></a>
-            </div>
-            <div class="icons">
-                <ul>
-                    <a href="#"><li class="instagram"><i class="fa fa-instagram"></i></li></a>
-                    <a href="#"><li class="github"><i class="fa fa-github"></i></li></a>
-                    <a href="#"><li class="twitter"><i class="fa fa-twitter"></i></li></a>
-                    <a href="#"><li class="linkedin"><i class="fa fa-linkedin"></i></li></a> 
-                </ul>            
-            </div>
-        </div> 
+                    <a href="mailto:sarumiadedapo@gmail.com" target="_blank"><button type="button" class="btn cta">Hire Me</button></a>
+            </div> 
     </body>
 </html>
