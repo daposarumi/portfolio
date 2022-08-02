@@ -121,16 +121,17 @@
             .checkbtn {
                 display: block;
             }
-            .right-nav {
+            nav {
                 position: fixed;
                 text-align: center;
                 display: block;
                 transition: all .5s;
+                left: -100%;
             }
-            .header-right {
+            nav a {
                 display: block;
             }
-            #check:checked ~ .right-nav{
+            #check:checked ~ nav{
                 left: 0;
             }
             .btn {
