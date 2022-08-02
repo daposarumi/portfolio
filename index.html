@@ -4,11 +4,18 @@
         <title>Web Developer in Ilorin</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=content-width, initial-scale=1" />         
-        <style media="screen AND (min-width:1024px)">
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                text-decoration: none;
+                list-style: none;
+                box-sizing: border-box;
+            }
             .logo {
                 margin-left: 90px;
                 color: black;
-                font-weight: 620;
+                font-weight: bold;
                 font-size: 30px;
                 line-height: 80px;
             }
@@ -120,9 +127,8 @@
             }
             .checkbtn {
                 display: inline;
-                float: right;
             }
-            .right-nav {
+            ul {
                 position: fixed;
                 text-align: center;
                 display: block;
@@ -130,15 +136,16 @@
                 transition: all .5s;
                 top: 80px;
                 width: 100%;
+                height: 100vh;
             }
-            .header-right {
+            nav ul li {
                 display: block;
             }
-            #check:checked ~ nav > a{
-                left: 0;
+            nav ul li a {
+                font-size: 20px;
             }
-            #check {
-                display: none;
+            #check:checked ~ ul {
+                left: 0;
             }
             .btn {
                 background-color: #f2f230;
@@ -162,10 +169,14 @@
             <div class="header">
                 <a href="https://daposarumi.github.io/portfolio/" class="logo">DS.</a>
                 <nav class="right-nav">
-                    <a href="#" class="header-right">Projects</a>
-                    <a href="mailto:sarumiadedapo@gmail.com" class="header-right">Contact</a>
-                    <a href="#" class="header-right">About</a>
-                    <a href="https://drive.google.com/file/d/1fqrwBC45ZGBEDkyffV0Ud93lgcgbsQNu/view?usp=sharing" target="_blank" class="header-right"><button class="mbtn">Resume</button></a>
+                    <ul>
+                        <li>
+                            <a href="#" class="header-right">Projects</a>
+                            <a href="mailto:sarumiadedapo@gmail.com" class="header-right">Contact</a>
+                            <a href="#" class="header-right">About</a>
+                            <a href="https://drive.google.com/file/d/1fqrwBC45ZGBEDkyffV0Ud93lgcgbsQNu/view?usp=sharing" target="_blank" class="header-right"><button class="mbtn">Resume</button></a>
+                        </li>
+                    </ul>
                 </nav>
             </div>
         </header>
