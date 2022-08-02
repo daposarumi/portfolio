@@ -10,6 +10,7 @@
                 color: black;
                 font-weight: 620;
                 font-size: 30px;
+                line-height: 80px;
             }
             p, h1 {
                 margin-left: 90px;
@@ -66,17 +67,32 @@
                 float: right;
                 margin-right: 90px;
                 padding-top: 5px;
+                line-height: 80px;
             }
             .header {
                 padding-top: 20px;
+                display: inline;
+            }
+            header {
+                height: 80px;
             }
             a:link {
                 text-decoration: none;
             }
+            .checkbtn {
+                float: right;
+                font-size: 30px;
+                line-height: 84px;
+                cursor: pointer;
+                display: none;
+            }
+            #check {
+                display: none;
+            }
         </style>
         <style>
             @media only screen and (max-width: 600px) {
-                body {
+            body {
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
             h1 {
@@ -102,6 +118,17 @@
             h1 br {
                 display: none;
             }
+            .checkbtn {
+                display: block;
+            }
+            .right-nav {
+                position: fixed;
+                text-align: center;
+                display: block
+            }
+            .header-right {
+                display: block;
+            }
             .btn {
                 background-color: #f2f230;
                 padding: 8px 40px;
@@ -126,6 +153,10 @@
                     <a href="https://drive.google.com/file/d/1fqrwBC45ZGBEDkyffV0Ud93lgcgbsQNu/view?usp=sharing" target="_blank" class="header-right"><button class="mbtn">Resume</button></a>
                 </nav>
             </div>
+            <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars"></i>
+                </label>
         </header>
             <div class="heading">
                     <h1 class="col1">Hi, I'm Dapo Sarumi,<br> a prolific front-end developer.</h1>
