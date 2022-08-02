@@ -124,10 +124,14 @@
             .right-nav {
                 position: fixed;
                 text-align: center;
-                display: block
+                display: block;
+                transition: all .5s;
             }
             .header-right {
                 display: block;
+            }
+            #check:checked ~ .right-nav{
+                left: 0;
             }
             .btn {
                 background-color: #f2f230;
