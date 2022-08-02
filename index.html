@@ -28,6 +28,20 @@
             h1 {
                 font-size: 55px;
             }
+            nav ul {
+                float: right;
+                margin-right: 90px;
+            }
+            nav ul li {
+                line-height: 80px;
+                display: inline-block;
+                margin: 0 5px;
+            }
+            nav ul li a {
+                padding: 0 18px;
+                font-size: 16px;
+                color: grey;
+            }
             .heading {
                 margin-top: 200px;
             }
@@ -59,24 +73,6 @@
             body {
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
-            .header-right {
-                color: grey;
-                font-size: 16px;
-                padding-right: 20px;
-                padding-left: 20px;
-            }
-            .header-right:hover {
-                color: black;
-            }
-            .header-right:active {
-                color: black;
-            }
-            .right-nav {
-                float: right;
-                margin-right: 90px;
-                padding-top: 5px;
-                line-height: 80px;
-            }
             .header {
                 padding-top: 20px;
                 display: inline;
@@ -89,14 +85,19 @@
             }
             .checkbtn {
                 float: right;
-                font-size: 30px;
+                font-size: 25px;
                 line-height: 80px;
                 cursor: pointer;
                 margin-right: 40px;
-                display: none;
             }
             #check {
                 display: none;
+            }
+            .header-right:hover {
+                color: black;
+            }
+            .header-right:active {
+                color: black;
             }
         </style>
         <style>
@@ -142,12 +143,15 @@
                 top: 80px;
                 width: 100%;
                 height: 100vh;
+                background: transparent;
             }
             .cta {
                 margin-left: 25px;
             }
             nav ul li {
                 display: block;
+                margin: 50px 0;
+                line-height: 30px;
             }
             nav ul li a {
                 font-size: 20px;
@@ -165,9 +169,8 @@
                 <label for="check" class="checkbtn">
                     <i class="fa fa-bars"></i>
                 </label>
-            <div class="header">
-                <a href="https://daposarumi.github.io/portfolio/" class="logo">DS.</a>
                 <nav class="right-nav">
+                    <label><a href="https://daposarumi.github.io/portfolio/" class="logo">DS.</a></label>
                     <ul>
                         <li>
                             <a href="#" class="header-right">Projects</a>
@@ -177,7 +180,6 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
         </header>
             <div class="heading">
                     <h1 class="col1">Hi, I'm Dapo Sarumi,<br> a prolific front-end developer.</h1><br>
