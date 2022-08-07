@@ -130,4 +130,7 @@ nav ul li a {
     #check:checked ~ ul {
         display: block;
     }
+    p br {
+        display: none;
+    }
 }
