@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+}
+.btn:hover {
+    cursor:pointer;
+}
+.checkbtn {
+    float: right;
+    font-size: 25px;
+    line-height: 80px;
+    cursor: pointer;
+    margin-right: 40px;
+    display: none;
+    color:black
+}
+#check {
+    display: none;
+}
+.cta {
+    background-color: #f2f230;
+    padding: 8px 40px;
+    border-radius: 8px;
+    border-color: #f2f230;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+h1 {
+    font-size: 55px;
+    color: black
+}
+header {
+    height: 80px;
+}
+.header-right:hover {
+    color: black;
+}
+.header-right:active {
+    color: black;
+}
+.heading {
+    margin-top: 200px;
+}
+.logo {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 80px;
+}
+.mbtn {
+    background-color: transparent;
+    padding:4px 8px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-width: 1.6px;
+    font-size: 16px;
+    margin-top: -3px;
+}
+.mbtn:hover {
+    cursor: pointer;
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    line-height: 80px;
+    display: inline-block;
+    margin: 0 5px;
+}
+nav ul li a {
+    padding: 0 18px;
+    font-size: 16px;
+    color: grey;
+}
+@media only screen and (max-width: 858px) {
+    body {
+        margin-left:25px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .logo {
+        color:black;
+        font-weight: 300;
+        font-size: 30px;
+    }  
+    .heading {
+        margin-top: 55px;
+    }
+    .col1 {
+        margin-right: 25px;
+    }
+    h1 br {
+        display: none;
+    }
+    .checkbtn {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        text-align: center;
+        left: 0;
+        transition: all .5s;
+        top: 80px;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        display: none;
+    }
+    nav ul li {
+        display:grid;
+        margin: 30px 0;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    nav ul li a {
+        font-size: 20px;
+        padding: 10px;
+    }
+    #check:checked ~ ul {
+        display: block;
+    }
+}
