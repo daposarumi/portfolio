@@ -103,8 +103,8 @@ p {
 }
 @media only screen and (max-width: 858px) {
     .col1 {
-        padding-left: 28px;
-        padding-right: 28px;
+        padding-left: 25px;
+        padding-right: 25px;
     }h1 {
         font-size: 25px;
     }
