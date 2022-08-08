@@ -1,5 +1,5 @@
 * {
-    padding: 0;
+    padding-left: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
@@ -7,8 +7,7 @@
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 80px;
-    margin-right: 80px;
+    background-color: #092327;
 }
 .btn:hover {
     cursor:pointer;
@@ -24,11 +23,16 @@ body {
 #check {
     display: none;
 }
+.col1 {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
 .cta {
-    background-color: #f2f230;
+    background-color: #EA9010;
     padding: 8px 40px;
     border-radius: 8px;
-    border-color: #f2f230;
+    border-color: #EA9010;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -36,40 +40,45 @@ body {
 }
 footer {
     text-align: center;
-    margin-top: 124px;
+    margin-top: 120px;
     font-size: 14px;
-    color: rgb(86, 82, 82)
+    color: grey;
 }
 h1 {
     font-size: 55px;
-    color: black
+    color: #f3e8ee;
 }
 header {
     height: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
 }
 .header-right:hover {
-    color: black;
+    color: #EA9010;
 }
 .header-right:active {
     color: black;
 }
 .heading {
-    margin-top: 200px;
+    margin-top: 220px;
 }
 .logo {
-    color: black;
+    color: #EA9010;
     font-weight: bold;
     font-size: 30px;
     line-height: 80px;
 }
 .mbtn {
     background-color: transparent;
-    padding:4px 8px;
-    border-radius: 8px;
+    padding: 8px 16px;
+    border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-width: 1.6px;
     font-size: 16px;
     margin-top: -3px;
+    border-color: #EA9010;
+    color: #EA9010;
 }
 .mbtn:hover {
     cursor: pointer;
@@ -86,6 +95,16 @@ nav ul li a {
     padding: 0 18px;
     font-size: 16px;
     color: grey;
+}
+p {
+    color: grey;
+}
+.stack {
+    text-align:center;
+}
+.tech {
+    background-color: aquamarine;
+    padding: 80px;
 }
 @media only screen and (max-width: 858px) {
     body {
