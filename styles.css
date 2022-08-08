@@ -26,7 +26,6 @@ body {
 .col1 {
     padding-left: 80px;
     padding-right: 80px;
-    padding-bottom: 50px;
 }
 .cta {
     background-color: #EA9010;
@@ -102,16 +101,11 @@ p {
 .stack {
     text-align:center;
 }
-.tech {
-    background-color: aquamarine;
-    padding: 80px;
-}
 @media only screen and (max-width: 858px) {
-    body {
-        margin-left:25px;
-        margin-right:28px;
-    }
-    h1 {
+    .col1 {
+        padding-left: 28px;
+        padding-right: 28px;
+    }h1 {
         font-size: 25px;
     }
     p {
