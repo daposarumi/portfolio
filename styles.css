@@ -18,7 +18,7 @@ body {
     line-height: 80px;
     cursor: pointer;
     display: none;
-    color:black
+    color:#EA9010;
 }
 #check {
     display: none;
@@ -112,7 +112,7 @@ p {
         font-size: 16px;
     }
     .logo {
-        color:black;
+        color:#EA9010;
         font-weight: 300;
         font-size: 30px;
     }  
