@@ -18,7 +18,7 @@ body {
     line-height: 80px;
     cursor: pointer;
     display: none;
-    color:#EA9010;
+    color:#E3B23C;
 }
 #check {
     display: none;
@@ -28,10 +28,10 @@ body {
     padding-right: 80px;
 }
 .cta {
-    background-color: #EA9010;
+    background-color: #E3B23C;
     padding: 8px 40px;
     border-radius: 8px;
-    border-color: #EA9010;
+    border-color: #E3B23C;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -55,7 +55,7 @@ header {
     padding-top: 10px;
 }
 .header-right:hover {
-    color: #EA9010;
+    color: #E3B23C;
 }
 .header-right:active {
     color: black;
@@ -64,7 +64,7 @@ header {
     margin-top: 220px;
 }
 .logo {
-    color: #EA9010;
+    color: #E3B23C;
     font-weight: bold;
     font-size: 30px;
     line-height: 80px;
@@ -77,8 +77,8 @@ header {
     border-width: 1.6px;
     font-size: 16px;
     margin-top: -3px;
-    border-color: #EA9010;
-    color: #EA9010;
+    border-color: #E3B23C;
+    color: #E3B23C;
 }
 .mbtn:hover {
     cursor: pointer;
@@ -117,7 +117,7 @@ p {
         font-size: 16px;
     }
     .logo {
-        color:#EA9010;
+        color:#E3B23C;
         font-weight: 300;
         font-size: 30px;
     }  
